@@ -18,7 +18,7 @@ provider "random" {
 }
 
 resource "random_string" "demorandomstring" {
-    length = 8
+    length = 6
     upper = false
     special = false
   
